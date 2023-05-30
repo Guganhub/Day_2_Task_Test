@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Understanding the Document and Window Objects</title>
+  <link rel="stylesheet" href="./blog.css">
+  
+</head>
+<body>
+  <h1>The Difference Between the Document and Window Objects</h1>
+  
+  <p>When working with JavaScript, it's important to understand the difference between the <code>document</code> and <code>window</code> objects. Although they are closely related, they serve different purposes in the browser environment.</p>
+  
+  <h2>The Document Object</h2>
+  
+  <p>The <code>document</code> object represents the web page or document being displayed in the browser. It provides access to the content within the document, allowing you to manipulate and modify it dynamically using JavaScript.</p>
+  
+  <p>Some commonly used properties and methods of the <code>document</code> object include:</p>
+  
+  <ul>
+    <li><code>document.getElementById()</code>: Retrieves an element in the document by its unique <code>id</code>.</li>
+    <li><code>document.createElement()</code>: Creates a new HTML element.</li>
+    <li><code>document.querySelector()</code>: Selects the first element that matches a specified CSS selector.</li>
+    <li><code>document.title</code>: Gets or sets the title of the document.</li>
+    <li><code>document.body</code>: References the <code>&lt;body&gt;</code> element.</li>
+  </ul>
+  
+  <h2>The Window Object</h2>
+  
+  <p>The <code>window</code> object represents the browser window or tab that contains the document. It provides methods and properties to control and interact with the browser window itself, rather than the content within it.</p>
+  
+  <p>Some commonly used properties and methods of the <code>window</code> object include:</p>
+  
+  <ul>
+    <li><code>window.alert()</code>: Displays an alert dialog box with a specified message.</li>
+    <li><code>window.location</code>: Gets or sets the URL of the current page.</li>
+    <li><code>window.open()</code>: Opens a new browser window or tab.</li>
+    <li><code>window.innerWidth</code> and <code>window.innerHeight</code>: Retrieve the width and height of the browser window.</li>
+    <li><code>window.document</code>: References the <code>document</code> object.</li>
+  </ul>
+  
+  <h2>Conclusion</h2>
+  
+  <p>Both the <code>document</code> and <code>window</code> objects are fundamental to JavaScript's interaction with the web page. While the <code>document</code> object
